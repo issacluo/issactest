@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relative_layout"
+    android:background="@color/nav_bar_background"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="5dp"
+        android:src="@drawable/setting" />
+
+    <TextView
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/icon"
+        android:layout_centerInParent="true"
+        android:text="测试"
+        android:textColor="#292929"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toLeftOf="@id/forward"
+        android:layout_centerInParent="true"
+        android:text="测试"
+        android:textSize="16sp"/>
+
+    <ImageView
+        android:id="@+id/forward"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/forward" />
+
+</RelativeLayout>
+

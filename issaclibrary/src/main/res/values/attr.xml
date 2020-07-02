@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        一个属性集合，外层的name是属性集合名称，
+        内层的name则是属性的名称，format则是属性的值的类型
+    -->
+    <declare-styleable name="SettingItemBar">
+        <!-- TextView的内容以及可见性 -->
+        <attr name="title_text" format="string|reference" />
+        <attr name="title_text_visibility">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="4" />
+            <enum name="gone" value="8" />
+        </attr>
+        <!-- TextView的内容以及可见性 -->
+        <attr name="info_text" format="string|reference" />
+        <attr name="info_text_visibility">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="4" />
+            <enum name="gone" value="8" />
+        </attr>
+        <!-- ImageView的内容以及可见性 -->
+        <attr name="icon_iv" format="reference" />
+        <attr name="icon_iv_visibility">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="4" />
+            <enum name="gone" value="8" />
+        </attr>
+        <!-- ImageView的内容以及可见性 -->
+        <attr name="forward_iv" format="reference" />
+        <attr name="forward_iv_visibility">
+            <enum name="visible" value="0" />
+            <enum name="invisible" value="4" />
+            <enum name="gone" value="8" />
+        </attr>
+        <!-- 自定义布局的背景颜色 -->
+        <attr name="background_color" format="color" />
+    </declare-styleable>
+
+</resources>
+
