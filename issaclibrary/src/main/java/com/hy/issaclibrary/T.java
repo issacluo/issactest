@@ -17,6 +17,6 @@ public class T {
         Student s=new Student(id,name);
         Gson g=new GsonBuilder().create();
         String ss=g.toJson(s);
-        Toast.makeText(context,ss,Toast.LENGTH_LONG).show();
+        Toast.makeText(context,ss+"build 2.0---",Toast.LENGTH_LONG).show();
     }
 }
